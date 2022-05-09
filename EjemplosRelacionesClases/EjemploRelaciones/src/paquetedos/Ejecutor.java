@@ -27,7 +27,7 @@ public class Ejecutor {
                 p.obtenerAnioPublicacion());
         
         aut.establecerApellido("Elizalde");
-        
+        System.out.println("\n--------------------------------------------\n");
         System.out.printf("Publicación\nAutor: %s %s\n"
                 + "Año de Publicación: %d\n",
                 p.obtenerAutor().obtenerNombre(),
